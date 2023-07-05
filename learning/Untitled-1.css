@@ -1,0 +1,56 @@
+ul li:nth-child(odd){
+      background-color: gray;
+    }
+    ul li:nth-child(2), li:nth-child(4){
+      background-color:darksalmon;
+    }
+    ul > li{
+      list-style-type: none;
+      width: 200px;
+      text-align: center;
+      color:brown;
+      size: 24px;
+      margin-bottom: 2px;
+      margin-left: 535px;
+      font-weight: bold;
+    }
+    ul li:hover, ul li:active{
+      background-color:red;
+      color: purple;
+      cursor: pointer;
+    }
+    ul{
+      margin-top: 50px;
+    }
+    body{
+      background-color: bisque;
+      text-align: center;
+      margin-top: 200px;
+    }
+    p{
+      width: 400px;
+      margin-left: 470px;
+      font-family: sans-serif, 	Arial, Verdana, Helvetica;
+      color:darkblue;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    #click{
+      background-color: aqua;
+      border: none;
+      border-radius: 60px;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      color: black;
+    }
+    #click:hover{
+      transition: 0.15s;
+      transform: translate(-2px, 2px);
+      box-shadow: -2px 3px rgba(0, 0, 0, 0.6);
+    }
+    
